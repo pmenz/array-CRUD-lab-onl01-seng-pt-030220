@@ -30,8 +30,8 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array = ["I", "am", "really", "learning"]
-  element = 1
-  array.index(element)
+  index_number = 1
+  array.index(index_number)
 end
 
 def retrieve_first_element_from_array(array)
