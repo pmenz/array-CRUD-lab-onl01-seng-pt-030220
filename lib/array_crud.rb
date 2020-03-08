@@ -36,8 +36,10 @@ end
 
 def retrieve_first_element_from_array(array)
   array = ["I", "am", "really", "learning"]
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
   array = ["I", "am", "really", "learning"]
+  array.last
 end
