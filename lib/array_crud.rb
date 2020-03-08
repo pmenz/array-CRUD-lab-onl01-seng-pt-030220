@@ -13,15 +13,17 @@ end
 
 def add_element_to_start_of_array(array, element)
   a=["a","b","c","d"]
-  a.unshift
+  a.unshift("z")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  a=["a","b","c","d"]
+  a.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  a=["a","b","c","d"]
+  a.pop
 end
 
 def retrieve_element_from_index(array, index_number)
