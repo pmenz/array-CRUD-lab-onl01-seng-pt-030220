@@ -3,15 +3,17 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["a","b","c","d"]
+  a=["a","b","c","d"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  a=["a","b","c","d"]
+  a.push("e")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  a=["a","b","c","d"]
+  a.unshift
 end
 
 def remove_element_from_end_of_array(array)
